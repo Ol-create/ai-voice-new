@@ -1,4 +1,3 @@
-# Randm Quote Machine
+## Ai vioce news
 
-This app will generate random quote with their author.
-It will also generate a random color at the same time.
+This app can render news with voice command with the help of alan-ai api
