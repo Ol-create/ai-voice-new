@@ -7,7 +7,12 @@ const App = () => {
 
 	useEffect(() => {
 		alanBtn({
-             KEY: ALAkEY,
+             key: alankey,
+			 onCommand: ({ command }) => {
+                   if (command == 'testCommand') {
+					   alert('This code was executed');
+				   }
+			 }
 		}, [])
 	})
 	return (
